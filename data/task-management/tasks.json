@@ -1,0 +1,86 @@
+{
+   "_links":{
+      "self":{
+         "href":"\/task-management\/tasks"
+      },
+      "ora:create":{
+         "href":"\/task-management\/tasks"
+      }
+   },
+   "_embedded":{
+      "ora:task":[
+         {
+            "id":"483c3e56-3ec6-4249-9794-cfd8dbc9aac8",
+            "subject":"Take a break",
+            "createdAt":"2015-04-24T12:49:46+00:00",
+            "createdBy":"Andrea Bandera",
+            "type":"task",
+            "status":20,
+            "stream":{
+               "subject":"My Second Stream",
+               "_links":{
+                  "self":{
+                     "href":"\/task-management\/streams\/1e0f6ed1-db1a-4987-a59a-b7932e953e1a"
+                  }
+               }
+            },
+            "members":{
+               "34220c78-b054-4bd8-9a5c-70acc30d9ddc":{
+                  "firstname":"Andrea",
+                  "lastname":"Bandera",
+                  "picture":"https:\/\/lh6.googleusercontent.com\/-XNz2RKct6RA\/AAAAAAAAAAI\/AAAAAAAAAEU\/jwJqgGIU6H0\/photo.jpg",
+                  "role":"owner",
+                  "estimation":null
+               }
+            },
+            "_links":{
+               "self":{
+                  "href":"\/task-management\/tasks\/483c3e56-3ec6-4249-9794-cfd8dbc9aac8"
+               },
+               "ora:edit":"\/task-management\/tasks\/483c3e56-3ec6-4249-9794-cfd8dbc9aac8",
+               "ora:delete":"\/task-management\/tasks\/483c3e56-3ec6-4249-9794-cfd8dbc9aac8",
+               "ora:estimate":"\/task-management\/tasks\/483c3e56-3ec6-4249-9794-cfd8dbc9aac8\/estimations",
+               "ora:complete":"\/task-management\/tasks\/483c3e56-3ec6-4249-9794-cfd8dbc9aac8\/transitions"
+            },
+            "estimation":null
+         },
+         {
+            "id":"e8e71204-b9c4-4505-b302-9615da5809ef",
+            "subject":"Great Place to Work",
+            "createdAt":"2015-04-24T09:59:02+00:00",
+            "createdBy":"Andrea Bandera",
+            "type":"task",
+            "status":20,
+            "stream":{
+               "subject":"Babba\u0027s Stream",
+               "_links":{
+                  "self":{
+                     "href":"\/task-management\/streams\/0c13819a-c3fc-4266-8677-10377674abbc"
+                  }
+               }
+            },
+            "members":{
+               "34220c78-b054-4bd8-9a5c-70acc30d9ddc":{
+                  "firstname":"Andrea",
+                  "lastname":"Bandera",
+                  "picture":"https:\/\/lh6.googleusercontent.com\/-XNz2RKct6RA\/AAAAAAAAAAI\/AAAAAAAAAEU\/jwJqgGIU6H0\/photo.jpg",
+                  "role":"owner",
+                  "estimation":null
+               }
+            },
+            "_links":{
+               "self":{
+                  "href":"\/task-management\/tasks\/e8e71204-b9c4-4505-b302-9615da5809ef"
+               },
+               "ora:edit":"\/task-management\/tasks\/e8e71204-b9c4-4505-b302-9615da5809ef",
+               "ora:delete":"\/task-management\/tasks\/e8e71204-b9c4-4505-b302-9615da5809ef",
+               "ora:estimate":"\/task-management\/tasks\/e8e71204-b9c4-4505-b302-9615da5809ef\/estimations",
+               "ora:complete":"\/task-management\/tasks\/e8e71204-b9c4-4505-b302-9615da5809ef\/transitions"
+            },
+            "estimation":null
+         }
+      ]
+   },
+   "count":2,
+   "total":2
+}

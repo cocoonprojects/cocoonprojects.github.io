@@ -1,0 +1,55 @@
+{
+   "count":1,
+   "total":1,
+   "_embedded":{
+      "ora:organization-member":[
+         {
+            "id":"34220c78-b054-4bd8-9a5c-70acc30d9ddc",
+            "firstname":"Andrea",
+            "lastname":"Bandera",
+            "picture":"https:\/\/lh6.googleusercontent.com\/-XNz2RKct6RA\/AAAAAAAAAAI\/AAAAAAAAAEU\/jwJqgGIU6H0\/photo.jpg",
+            "role":"admin",
+            "createdAt":"2015-04-24T09:20:06+00:00",
+            "createdBy":"Andrea Bandera",
+            "_links":{
+               "self":{
+                  "href":"\/people\/organizations\/members\/34220c78-b054-4bd8-9a5c-70acc30d9ddc"
+               }
+            }
+         },
+         {
+            "id":"34220c78-b054-4bd8-9a5c-70acc30d9dcc",
+            "firstname":"Mario",
+            "lastname":"Rossi",
+            "picture":"https:\/\/lh6.googleusercontent.com\/-XNz2RKct6RA\/AAAAAAAAAAI\/AAAAAAAAAEU\/jwJqgGIU6H0\/photo.jpg",
+            "role":"member",
+            "createdAt":"2015-04-24T09:20:06+00:00",
+            "createdBy":"Andrea Bandera",
+            "_links":{
+               "self":{
+                  "href":"\/people\/organizations\/members\/34220c78-b054-4bd8-9a5c-70acc30d9dcc"
+               }
+            }
+         },
+         {
+            "id":"34220c78-b054-4bd8-9a5c-70acc30d9dbc",
+            "firstname":"Filippo",
+            "lastname":"Salzani",
+            "picture":"https:\/\/lh6.googleusercontent.com\/-XNz2RKct6RA\/AAAAAAAAAAI\/AAAAAAAAAEU\/jwJqgGIU6H0\/photo.jpg",
+            "role":"member",
+            "createdAt":"2015-04-24T09:20:06+00:00",
+            "createdBy":"Andrea Bandera",
+            "_links":{
+               "self":{
+                  "href":"\/people\/organizations\/members\/34220c78-b054-4bd8-9a5c-70acc30d9dbc"
+               }
+            }
+         }
+      ]
+   },
+   "_links":{
+      "self":{
+         "href":"\/people\/organizations\/members"
+      }
+   }
+}
